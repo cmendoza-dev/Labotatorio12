@@ -1,12 +1,15 @@
 <!-- post-list.component.html -->
 
-<h2>Lista de Publicaciones</h2>
 
-<ul>
-  <li *ngFor="let post of posts">
-    {{ post.title }}
-    <button (click)="showDetails(post)">Ver detalles</button>
-  </li>
-</ul>
+<div>
+  <h2>Publicaciones</h2>
+  <ul>
+    <li *ngFor="let post of posts">
+      {{ post.title }}
+      <button (click)="showDetails(post)">Ver</button>
+    </li>
+  </ul>
+</div>
+
 
 <app-post-details [post]="selectedPost"></app-post-details>

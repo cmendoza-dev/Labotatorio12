@@ -1,6 +1,9 @@
 /* post-list.component.css */
 
 /* Estilos adicionales según sea necesario */
+div{
+  margin-left: 2rem;
+}
 ul {
     list-style-type: none;
     padding: 0;

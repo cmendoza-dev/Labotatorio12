@@ -1,5 +1,10 @@
 /* user-list.component.css */
 
+div{
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
 h2 {
   color: #333;
 }

@@ -1,8 +1,12 @@
-<h2>User List</h2>
+
+<div>
+
+<h2>Lista de Usuarios</h2>
 <ul>
   <li *ngFor="let user of users">
     {{ user.name }}
-    <button (click)="showDetails(user)">Ver deatlles</button>
+    <button (click)="showDetails(user)">Ver detalles</button>
   </li>
 </ul>
 <app-user-details [user]="selectedUser"></app-user-details>
+</div>

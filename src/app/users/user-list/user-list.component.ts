@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserListComponent implements OnInit {
   users = [
-    { id: 1, name: 'John' },
-    { id: 2, name: 'Jane' },
-    { id: 3, name: 'Doe' }
+    { id: 1, name: 'Carlos Mendoza' },
+    { id: 2, name: 'Manuel Guanilo' },
+    { id: 3, name: 'Juan Sisniegas' }
   ];
 
   selectedUser: {id: number, name: string }| undefined;
